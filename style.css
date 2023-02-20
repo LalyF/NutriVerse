@@ -8,10 +8,12 @@ body {
     text-align: center;
     margin: 0;
   }
+
   
   .lead{
+    float: left;
     text-align: justify ;
-    padding-left: 30%;
+    padding-left: 35%;
   
   }
   
@@ -174,4 +176,40 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
   
+}
+
+.landing-page-bg2{
+background-image: url("./Images/food_bg.jpg");
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  }
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-author, .card-date {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.grid-container {
+  display: grid;
+  grid-template: 375px / auto auto auto;
 }
